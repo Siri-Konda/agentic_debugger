@@ -1,0 +1,75 @@
+# Python byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Installer / packaging logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+.nosetests.xml
+coverage.xml
+*,cover
+htmlcov/
+.tox/
+.pytest_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.Trashes
+
+# Logs
+logs/
+*.log
+
+# mypy
+.mypy_cache/
+
+# dotenv
+.env
+
+# Misc
+*.sqlite3
+*.db
+
+# Local config
+local_settings.py
+
+# Ignore bytecode compiled by PyInstaller / other tools
+__pycache__/
+
