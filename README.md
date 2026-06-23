@@ -12,8 +12,22 @@
 gemini-3.1-flash-lite worked
 
 ## Instructions
- Replace "gemini-3.5-flask" with "gemini-3.1-flash-lite" in the base.py file in agents folder if you encounter the same issue
+
+ - Replace "gemini-3.5-flask" with "gemini-3.1-flash-lite" in the base.py file in agents folder if you encounter the same issue
  
- Also, make sure to create an api key and add it to a .env file as GOOGLE_API_KEY = <your api key> or GEMINI_API_KEY = <Your api key> 
+ - Also, make sure to create an api key and add it to a .env file as GOOGLE_API_KEY = <your api key> or GEMINI_API_KEY = <Your api key> 
  
- ```Use adk web . ``` on your terminal to run this project in the web, instead of the regular python run command.
+ - Use ```adk web .``` on your terminal to run this project in the web, instead of the regular python run command.
+
+ - Here is the prompt example used in the screenshot, you can use it to test the agents (It mimics the deployment errors thrown on vercel):
+ ```
+[INFO] Starting build... 
+
+[INFO] pip install -r requirements.txt 
+
+[ERROR] Could not find a version that satisfies the requirement tensorflew==2.14.0 (from versions: none) 
+
+[ERROR] No matching distribution found for tensorflew==2.14.0 
+
+[FATAL] Build aborted due to step failure.
+```
